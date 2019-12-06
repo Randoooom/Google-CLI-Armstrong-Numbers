@@ -1,6 +1,8 @@
 use  std::io;
 
 fn main() {
+    println!("Please enter a number to proof it!");
+
     let mut number = String::new();
 
     io::stdin().read_line(&mut number)
